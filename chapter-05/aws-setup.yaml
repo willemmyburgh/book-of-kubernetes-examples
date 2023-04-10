@@ -6,7 +6,7 @@
     aws_instances:
       host01:
         type: master
-        ip: 192.168.61.11
+        ip: 192.168.61.21
         instance_type: t3.medium
   roles:
     - aws-instances

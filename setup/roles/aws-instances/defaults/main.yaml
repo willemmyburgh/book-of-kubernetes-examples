@@ -1,7 +1,7 @@
 ---
 aws_region: ap-southeast-1
-aws_subnet_az: ap-southeast-1c
-aws_private_cidr: 192.168.61.0/24
+aws_subnet_az: ap-southeast-1b
+aws_private_cidr: 192.168.61.16/28
 aws_k8s_pod_cidr: 172.31.0.0/16
 aws_k8s_svc_cidr: 10.96.0.0/12
 aws_key: aws_ansible_k8s
