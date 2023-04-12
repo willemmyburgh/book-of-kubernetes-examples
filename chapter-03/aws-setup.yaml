@@ -6,11 +6,11 @@
     aws_instances:
       host01:
         type: client
-        ip: 192.168.61.11
+        ip: 192.168.31.11
         instance_type: t3.medium
       host02:
         type: server
-        ip: 192.168.61.12
+        ip: 192.168.31.12
         instance_type: t3.small
   roles:
     - aws-instances
